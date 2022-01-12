@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    max-width: 1080px;
+    margin: auto;
+}
+#game {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+h1 {
+    font-family: sans-serif;
+    margin: 1rem;
+    padding: 0.5rem;
+    background-color: black;
+    color: wheat;
+    border-radius: 10px;
+    text-align: center;
+    flex-basis: 100%;
+}
+button {
+    padding: 0.3rem;
+    margin: 0.5rem;
+    flex-basis: 33%;
+    border: transparent;
+    border-radius: 5px;
+    color: rgb(70, 56, 53);
+    display: inline-block;
+}
+
+button:hover {
+    background-color: rgb(212, 203, 212);
+    cursor: pointer;
+}
